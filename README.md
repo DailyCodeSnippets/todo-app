@@ -26,15 +26,3 @@ Users can add, delete, and mark tasks as complete. Tasks are saved in the browse
 ```bash
 git clone https://github.com/DailyCodeSnippets/todo-app.git
 
-
-Run the app
-
-Open index.html in your browser
-
-(If using VS Code, you can start Live Server for auto-refresh)
-
-```markdown
-## 👨‍💻 Author
-**[DailyCodeSnippets](https://github.com/DailyCodeSnippets)**  
-Made with ❤️ by **Gulzar Shaikh**
-
