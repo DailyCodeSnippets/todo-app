@@ -87,7 +87,7 @@
             gap: 10px;
         }
 
-        .complete-btn, .delete-btn {
+        .complete-btn, .delete-btn, .edit-btn {
             padding: 5px 10px;
             border: none;
             border-radius: 3px;
@@ -110,4 +110,49 @@
         .delete-btn:hover {
             background: #D32F2F;
         }
-    
+
+        /* ✏️ Edit button styling */
+        .edit-btn {
+        background: #ff9800;
+        }
+
+        .edit-btn:hover {
+        background: #e68900;
+        }
+
+        /* 📱 Mobile responsiveness */
+        @media (max-width: 480px) {
+        .input-section {
+        flex-direction: column;
+        gap: 5px;
+        }
+
+        #add-btn {
+        width: 100%;
+        }
+
+        .task-actions {
+        flex-direction: column;
+        gap: 5px;
+        }
+
+        .task-actions button {
+        width: 100%;
+        }
+        }
+
+        .task-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+        word-break: break-word; /* breaks long words */
+        white-space: normal; /* allows text to wrap */
+        }
+
+        .task-item span {
+        flex: 1; /* takes available space */
+        overflow-wrap: break-word;
+        }
+
+
