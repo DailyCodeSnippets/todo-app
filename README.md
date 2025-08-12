@@ -1,6 +1,6 @@
 # 📝 To-Do App
 
-A simple **To-Do application** built with **HTML**, **CSS**, **Bootstrap**, and **JavaScript**.  
+A simple **To-Do application** built with **HTML**, **CSS** and **JavaScript**.  
 Users can add, delete, and mark tasks as complete. Tasks are saved in the browser's **local storage** so they persist even after reloading.
 
 ---
